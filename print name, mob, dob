@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()  
+{
+   
+    printf("Name   : priya singh\n"); 
+    
+   
+    printf("DOB    :sep,30, 2006\n"); 
+    
+   
+    printf("Mobile :1223456789\n"); 
+    
+    
+    return(0); 
+}
