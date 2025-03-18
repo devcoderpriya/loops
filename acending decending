@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() {
+    int x, y, i, total = 0; // Declare variables for user input and calculations
+    printf("\nInput a pair of numbers (for example 10,2 : 2,10):");
+    printf("\nInput first number of the pair: ");
+    scanf("%d", &x); // Read the first number
+    printf("\nInput second number of the pair: ");
+    scanf("%d", &y); // Read the second number
+
+    if (x > y) {
+        printf("The pair is in descending order!"); // If x is greater than y, print message for descending order
+    } else {
+        printf("The pair is in ascending order!"); // Otherwise, print message for ascending order
+    }
+
+    printf("\n");
+    return 0;
+} 
