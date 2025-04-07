@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    char a;
+     printf("enter the character :");
+     scanf("%d",&a);
+     char b;
+     printf("enter the character :");
+     scanf("%d",&b);
+     
+    while (a >= b) {
+        printf("%c ", a);
+        a++;
+    }
+
+    return 0;
+}
