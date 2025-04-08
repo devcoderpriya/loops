@@ -1,0 +1,21 @@
+#include<stdio.h>
+int  main()
+
+{
+    int sp;
+    printf("enter the value of sp :");
+    scanf("%d",&sp);
+    int ep;
+    printf("enter the value of sp :");
+    scanf("%d",&ep);
+    int sum=0;
+    while(sp<=ep)
+    {
+        sum=sum+sp;
+        sp=sp+1;
+        
+    }
+    printf(" %d ",sum);
+    return 0;
+}
+
